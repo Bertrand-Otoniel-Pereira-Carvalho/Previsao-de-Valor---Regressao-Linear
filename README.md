@@ -1,8 +1,8 @@
-📈 Regressão Linear com Python e NumPy
+# 📈 Regressão Linear com Python e NumPy
 
 Este projeto implementa uma classe simples de Regressão Linear utilizando apenas a biblioteca NumPy, com o objetivo de realizar previsões a partir de um conjunto de dados numéricos correlacionados.
 
-🚀 Funcionalidades
+# 🚀 Funcionalidades
 - Cálculo do coeficiente de correlação de Pearson
 
 - Cálculo da inclinação da reta (coeficiente angular)
@@ -11,7 +11,7 @@ Este projeto implementa uma classe simples de Regressão Linear utilizando apena
 
 - Previsão de valores utilizando a equação da reta
 
-🧠 Conceitos aplicados
+# 🧠 Conceitos aplicados
 Este projeto reforça os fundamentos da Regressão Linear Simples:
 
 
@@ -30,7 +30,7 @@ x é o valor de entrada
 𝑦
 y é o valor previsto
 
-🧾 Exemplo de uso
+# 🧾 Exemplo de uso
 
     from numpy import array
     from linear_regression import LinearRegression
@@ -42,7 +42,7 @@ y é o valor previsto
     previsao = lr.previsao(5)
 
     print(previsao)  # Saída esperada: 10.0
-📦 Requisitos
+# 📦 Requisitos
 
 Python 3.x
 
@@ -52,7 +52,7 @@ Instale o NumPy com:
 
     pip install numpy
 
-📁 Estrutura da Classe
+# 📁 Estrutura da Classe
 
 __correlacao(): calcula o coeficiente de correlação.
 
